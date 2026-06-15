@@ -1,0 +1,6 @@
+
+(executable
+  (modes exe)
+  (name cpstruct)
+)
+

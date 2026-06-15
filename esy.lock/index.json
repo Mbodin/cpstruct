@@ -1,0 +1,147 @@
+{
+  "checksum": "f79f04dbbf482876d529f0f96bb07e10",
+  "root": "cpstruct@link-dev:./package.json",
+  "node": {
+    "ocaml@5.3.0@d41d8cd9": {
+      "id": "ocaml@5.3.0@d41d8cd9",
+      "name": "ocaml",
+      "version": "5.3.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/ocaml/-/ocaml-5.3.0.tgz#sha1:3b0a65035064f52cbd5b522920cf2dcac165d081"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": [],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    },
+    "cpstruct@link-dev:./package.json": {
+      "id": "cpstruct@link-dev:./package.json",
+      "name": "cpstruct",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@5.3.0@d41d8cd9", "@opam/dune@opam:3.23.1@9ab48dae"
+      ],
+      "devDependencies": [],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    },
+    "@opam/dune@opam:3.23.1@9ab48dae": {
+      "id": "@opam/dune@opam:3.23.1@9ab48dae",
+      "name": "@opam/dune",
+      "version": "opam:3.23.1",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://opam.ocaml.org/cache/sha256/93/93b4e7157f6ba8feb61cfc5f86008efd2c59037ba78a017d92b4abf30632348f#sha256:93b4e7157f6ba8feb61cfc5f86008efd2c59037ba78a017d92b4abf30632348f",
+          "archive:https://github.com/ocaml/dune/releases/download/3.23.1/dune-3.23.1.tbz#sha256:93b4e7157f6ba8feb61cfc5f86008efd2c59037ba78a017d92b4abf30632348f"
+        ],
+        "opam": {
+          "name": "dune",
+          "version": "3.23.1",
+          "path": "esy.lock/opam/dune.3.23.1"
+        }
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@5.3.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084",
+        "@esy-ocaml/substs@0.0.1@d41d8cd9"
+      ],
+      "devDependencies": [
+        "ocaml@5.3.0@d41d8cd9", "@opam/base-unix@opam:base@87d0b2eb",
+        "@opam/base-threads@opam:base@36803084"
+      ],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    },
+    "@opam/base-unix@opam:base@87d0b2eb": {
+      "id": "@opam/base-unix@opam:base@87d0b2eb",
+      "name": "@opam/base-unix",
+      "version": "opam:base",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "base-unix",
+          "version": "base",
+          "path": "esy.lock/opam/base-unix.base"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": [],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    },
+    "@opam/base-threads@opam:base@36803084": {
+      "id": "@opam/base-threads@opam:base@36803084",
+      "name": "@opam/base-threads",
+      "version": "opam:base",
+      "source": {
+        "type": "install",
+        "source": [ "no-source:" ],
+        "opam": {
+          "name": "base-threads",
+          "version": "base",
+          "path": "esy.lock/opam/base-threads.base"
+        }
+      },
+      "overrides": [],
+      "dependencies": [ "@esy-ocaml/substs@0.0.1@d41d8cd9" ],
+      "devDependencies": [],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    },
+    "@esy-ocaml/substs@0.0.1@d41d8cd9": {
+      "id": "@esy-ocaml/substs@0.0.1@d41d8cd9",
+      "name": "@esy-ocaml/substs",
+      "version": "0.0.1",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@esy-ocaml/substs/-/substs-0.0.1.tgz#sha1:59ebdbbaedcda123fc7ed8fb2b302b7d819e9a46"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": [],
+      "available": [
+        [ "darwin", "x86_64" ],
+        [ "darwin", "arm64" ],
+        [ "linux", "x86_64" ],
+        [ "windows", "x86_64" ]
+      ]
+    }
+  },
+  "platformSpecific": {}
+}

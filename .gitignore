@@ -1,0 +1,6 @@
+.*.swp
+\#*\#
+_esy/
+_build/
+node_modules/
+
