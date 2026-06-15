@@ -1,0 +1,15 @@
+{
+	"name": "cpstruct",
+	"esy": {
+		"build": "dune build @all",
+		"buildsInSource": "_build"
+	},
+	"scripts": {
+		"test": "dune runtest",
+		"release-build": "dune build --profile=release @all"
+	},
+	"dependencies": {
+		"ocaml": "*",
+		"@opam/dune": "*"
+	}
+}
